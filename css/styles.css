@@ -1,0 +1,154 @@
+body{
+  font-family: "Montserrat"
+}
+
+
+#head{
+  background-color: #4699F8;
+  color: #030e12;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*  navigation bar  */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  left: 20px;
+}
+
+.navbar-item{
+  padding: 0 20px;
+  color: #3EDBF0;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+
+}
+
+
+/*  download buttons */
+.download-button{
+  margin: 5% 5% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 100%;
+/*  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  top: 40px;
+} */
+
+}
+
+/*features*/
+
+#features{
+  padding: 7% 15%;
+  background-color:#F0EEF5;
+  position: relative;
+  z-index: 1;
+
+}
+.features-para{
+  color: #8f8f8f;
+  text-align: center;
+
+}
+.features-heading{
+  font-family: "Montserrat-bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.i-features{
+  color: #F21170;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.i-features:hover {
+  color:#DA0037;
+}
+
+
+/*foot*/
+#foot{
+background-color:#4699F8 ;
+padding: 7% 15%;
+position: relative;
+
+}
+
+.i-style{
+  color: #F21170;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.like:hover{
+  color:#81B214;
+}
+
+.dislike:hover{
+  color:#DA0037;
+}
+
+.login:hover{
+  color:#66DE93;
+}
+
+input{
+  text-align: center;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  background: none;
+  pointer-events: none;
+  /* position: inherit; */
+  height: 40px;
+  width: 40px;
+
+}
+
+h3{
+  margin-top: 30px;
+  font-family: "Montserrat-bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  color:#161616;
+}
+
+.gem-stone img{
+  border-radius: 50%;
+}
+
+.btn {
+  border-radius: 30%;
+}
+
+#foot .container {
+  text-align: center;
+}
